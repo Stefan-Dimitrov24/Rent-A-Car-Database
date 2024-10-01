@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93AC5B98-3AB0-ADCE-0E70-3525362600E4" name="Cities">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>5F5C7F99-39CA-A3D7-0D60-6364A1E4BF39</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="City Num" id="5B26A426-8E4F-C9CA-FF85-66ADF647081D">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>704D626E-69F5-1334-5ACE-053DAACD139E</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="BB68B252-ADD3-E4A2-DA47-0C6F1C086A64">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>9FC8D7D1-0000-54E6-987E-DF361AAFEE64</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F676E9D-AA81-07EF-3AD5-0DA70E2B3713" name="Cities PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>E050D41C-7472-D6D4-C3B0-63711C6FC0A4</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B26A426-8E4F-C9CA-FF85-66ADF647081D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

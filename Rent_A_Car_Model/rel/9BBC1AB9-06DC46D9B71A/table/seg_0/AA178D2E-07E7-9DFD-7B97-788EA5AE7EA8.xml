@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA178D2E-07E7-9DFD-7B97-788EA5AE7EA8" name="Colors">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:43:22 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Color_Num" id="097074E3-ACE6-01C5-1743-4BF5973590C8">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:43:47 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Color" id="81146614-7BD8-1B9E-FE2A-C069D3436A26">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:43:47 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B86AA70-E0CE-EB36-0253-6E75B96FB120" name="Colors_PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:44:24 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="097074E3-ACE6-01C5-1743-4BF5973590C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

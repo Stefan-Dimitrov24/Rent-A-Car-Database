@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86A03300-25FB-C50A-F060-19AB7CE97546" name="Car Types">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>F0EA88B2-3D00-10F7-5C68-7315D6AF9BFF</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type Num" id="57515647-72C3-7487-079E-A5804FC9172F">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>2EB51B64-9418-92F0-32B5-21FC7C687542</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="C8300E29-DA37-BFCC-E48B-43D7FFA5EF1F">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>092B5862-F339-9DA0-BEB9-1F595CB2AA18</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BE4D2F1-FF2A-D119-84CF-A26AB63D2289" name="Car Types PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>991585C3-B999-698F-5874-0E6543B00442</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57515647-72C3-7487-079E-A5804FC9172F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

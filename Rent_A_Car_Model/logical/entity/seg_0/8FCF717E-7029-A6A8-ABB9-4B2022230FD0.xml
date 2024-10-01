@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FCF717E-7029-A6A8-ABB9-4B2022230FD0" name="Client">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>8F36A644-86CC-B281-A97A-BFA93879C5AD</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="A5FC2B1F-F243-4053-54C0-F2195BB3EDF8">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>C4BD0E1A-2A4E-782F-BF40-7E6585902DAE</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client Num" id="0F2D94D0-1BB1-C853-75A5-6545D11325CE">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>7BB52455-349F-68E6-6AA4-AA16FB7EC713</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City Num" id="E8B73FCB-90BD-5980-8CFE-9C5ADB7088F6">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>C6EB4DE7-8365-9BC9-8815-87BDFB10DEFF</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<referedAttribute>5B26A426-8E4F-C9CA-FF85-66ADF647081D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="769FFE34-976D-E157-9762-0C980A3561AB">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>928131FC-563B-2254-9F8A-ACE1A645B1A2</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF0744A0-EBCB-3D7E-BCE6-86027DC1FF7B" name="Client PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>EFC001DF-FD45-6D87-8758-8958695C05CF</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F2D94D0-1BB1-C853-75A5-6545D11325CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

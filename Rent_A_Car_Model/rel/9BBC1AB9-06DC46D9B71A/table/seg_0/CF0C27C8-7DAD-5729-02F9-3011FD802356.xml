@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF0C27C8-7DAD-5729-02F9-3011FD802356" name="Request">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 08:57:42 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Request_Num" id="A41C81DB-0727-1A36-A809-441FFF1DE01B">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 08:58:10 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="81707EDF-AE46-C999-2CD0-592EB66391FB">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 08:58:23 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_Num" id="FA69A615-EF3C-5150-035C-F8EA890E6759">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 08:59:13 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF610B3B-284C-E306-CE1D-93CC18DB0E76" referredColumn="B84C382F-FA6F-F38D-A6BB-C2FBD492EDE7"/>
+</associations>
+</Column>
+<Column name="Number_of_Days" id="877BAA35-571A-2E71-4899-EACC2132FAC8">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:02:59 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Car_Num" id="AEE366FB-693F-7388-635E-337F499D83EA">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:34:22 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F06B4105-F823-2846-E669-DBC25655E276" referredColumn="6389CA35-3BD5-D8B5-053F-BC757F27085D"/>
+</associations>
+</Column>
+<Column name="Client_Num" id="AC148ED5-407C-B826-C158-F58392F50FB3">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:34:36 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F6A8E60-EE82-2939-E2B4-D7481C9D14AD" referredColumn="7BB52455-349F-68E6-6AA4-AA16FB7EC713"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86B58A4D-594B-B966-81EE-67CEF899E74C" name="Request_PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 08:59:22 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A41C81DB-0727-1A36-A809-441FFF1DE01B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F96AE9D5-1E87-D480-BA7D-87DA71BE7DD7" name="Request_Employee_FK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:00:50 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA69A615-EF3C-5150-035C-F8EA890E6759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="572D8D6C-4583-DBCA-9024-35B5F49781B1" name="Request_Cars_FK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:34:43 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE366FB-693F-7388-635E-337F499D83EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECFF1E5C-A189-B330-43EC-CEC9D1A8A634" name="Request_Client_FK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:34:51 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC148ED5-407C-B826-C158-F58392F50FB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

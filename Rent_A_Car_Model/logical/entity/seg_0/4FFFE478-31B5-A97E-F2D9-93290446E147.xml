@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FFFE478-31B5-A97E-F2D9-93290446E147" name="Car Brand">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>3D796B01-E0F2-D10B-7350-0BB431948B94</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Car Brand Num" id="83952727-F643-4D23-BC3F-ECD0CBDB404F">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>2EE5EEA2-0409-05AB-AFE5-CE9E8471236E</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Brand" id="0BC5978B-C1D5-3A4D-CEA9-5459F0DAA2C0">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>F884820D-B4CE-42A4-DAC8-1F0271E25F71</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="C8DE8083-2793-D1DB-078D-5C1F1F3F71CD">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>BD17730B-4B10-6109-0A29-CA4A738A2608</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D510D11F-3DE6-25F3-A1BD-D07EF2B9F889" name="Car Brand PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>85235D92-5FF1-9490-AAA6-CFA8576C627A</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83952727-F643-4D23-BC3F-ECD0CBDB404F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

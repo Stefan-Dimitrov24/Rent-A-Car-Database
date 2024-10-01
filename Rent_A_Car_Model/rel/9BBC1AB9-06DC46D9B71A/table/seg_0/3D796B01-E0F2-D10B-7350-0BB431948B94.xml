@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D796B01-E0F2-D10B-7350-0BB431948B94" name="Car_Brand">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:29:36 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Car_Brand_Num" id="2EE5EEA2-0409-05AB-AFE5-CE9E8471236E">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:30:03 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brand" id="F884820D-B4CE-42A4-DAC8-1F0271E25F71">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:30:03 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85235D92-5FF1-9490-AAA6-CFA8576C627A" name="Car Brand_PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:30:03 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE5EEA2-0409-05AB-AFE5-CE9E8471236E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

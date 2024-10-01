@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cars_Car_Model_FK" directorySegmentName="seg_0" id="478D50DF-9D36-FEE4-CD2B-A788D0A7F0B0">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:57:49 UTC</createdTime>
+<generatorID>3AED3F4A-0C0F-D3A4-2636-41427568E117</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<sourcePk>482049F7-D01A-0989-9E02-372C900A39B7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>986E39EA-803A-44B4-7108-04742A559EDA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FEBB8F57-8D28-B0A8-9AF6-BF76857D6DD8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

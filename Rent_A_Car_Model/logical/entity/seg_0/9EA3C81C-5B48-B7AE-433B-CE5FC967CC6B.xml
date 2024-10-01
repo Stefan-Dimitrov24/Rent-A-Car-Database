@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EA3C81C-5B48-B7AE-433B-CE5FC967CC6B" name="Request">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>CF0C27C8-7DAD-5729-02F9-3011FD802356</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Request Num" id="933B75F5-3EC1-C48D-409E-53C74F8D3F8D">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>A41C81DB-0727-1A36-A809-441FFF1DE01B</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="3D29C7F9-3A59-5BEE-9758-3AC61BAE8E2C">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>81707EDF-AE46-C999-2CD0-592EB66391FB</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee Num" id="EEB18E00-1001-F86B-3454-C8AD9A8ED714">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>29F74B06-D983-CA74-0082-123038DCC1A7</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<referedAttribute>3D721F43-9CAF-5C6B-C5CA-A2AB01ED4B7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Days" id="99B75040-0A2D-EF82-8EE9-86A664FB08B6">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>877BAA35-571A-2E71-4899-EACC2132FAC8</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Car Num" id="C042C360-20DF-CF83-A93E-691A7E144078">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>70646FD6-0D1E-A187-1E77-AD2CD4A967F6</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<referedAttribute>837AF8C2-4575-877C-E528-0FF10B29213A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client Num" id="349FC2A6-5CAB-BA5A-E193-570BB04CE6E7">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:47:24 UTC</createdTime>
+<generatorID>87A7E37B-BA84-1284-698B-A94FE1F398ED</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<referedAttribute>0F2D94D0-1BB1-C853-75A5-6545D11325CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8212BB24-B64C-8987-4022-82E45BD6CAE7" name="Request PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-09 09:32:34 UTC</createdTime>
+<generatorID>86B58A4D-594B-B966-81EE-67CEF899E74C</generatorID>
+<ownerDesignName>Kursova</ownerDesignName>
+<engineerTo>
+<item key="9BBC1AB9-F708-DB2D-217E-06DC46D9B71A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>933B75F5-3EC1-C48D-409E-53C74F8D3F8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

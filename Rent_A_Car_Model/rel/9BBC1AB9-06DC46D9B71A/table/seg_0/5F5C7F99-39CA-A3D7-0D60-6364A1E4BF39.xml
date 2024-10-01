@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F5C7F99-39CA-A3D7-0D60-6364A1E4BF39" name="Cities">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:41:07 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="City_Num" id="704D626E-69F5-1334-5ACE-053DAACD139E">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:41:27 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="9FC8D7D1-0000-54E6-987E-DF361AAFEE64">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:41:41 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E050D41C-7472-D6D4-C3B0-63711C6FC0A4" name="Cities_PK">
+<createdBy>deadh</createdBy>
+<createdTime>2021-11-10 07:41:27 UTC</createdTime>
+<ownerDesignName>Kursova</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="704D626E-69F5-1334-5ACE-053DAACD139E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
